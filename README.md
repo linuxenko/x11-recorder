@@ -37,7 +37,7 @@ How to run it ?
 I'll share the `--help` output here.
 
 ```sh
-  Usage: index [options] <file ...>
+  Usage: xrec [options] <file ...>
 
   Options:
 
