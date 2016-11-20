@@ -20,7 +20,7 @@ commander
   .option('-s, --screenshot', '')
   .parse(process.argv);
 
-commander.output = path.join(commander.output || __dirname, './');
+commander.output = path.join(commander.output || process.cwd() + '/');
 
 if (commander.delay) {
   commander.delay = commander.delay * 1000;
