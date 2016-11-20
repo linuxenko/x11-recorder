@@ -2,7 +2,7 @@
 
 `xrec` helps you capture any area of your screen either as a screenshot or record a gif file.
 
-[![CURRENTLY RECORDING](somewhere on hdd)]()
+[![CURRENTLY RECORDING](https://raw.githubusercontent.com/linuxenko/x11-recorder/master/screenshot.gif)]()
 
 Would you like record something like this ? `xrec` is exactly for it.
 
