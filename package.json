@@ -1,0 +1,44 @@
+{
+  "name": "xrec",
+  "version": "0.0.1",
+  "description": "xrec helps you capture any area of your screen either as a screenshot or record a gif file.",
+  "main": "index.js",
+  "bin" : {
+    "xrec" : "./index.js"
+  },
+  "files": [
+    "bin",
+    "lib",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "gif",
+    "desktop",
+    "recorder",
+    "screenshot",
+    "x11"
+  ],
+  "scripts": {
+    "test": "eslint ."
+  },
+  "dependencies": {
+    "commander": "^2.9.0",
+    "gifencoder": "^1.0.6",
+    "pngjs": "^3.0.0",
+    "x11": "https://github.com/15lyfromsaturn/node-x11.git"
+  },
+  "devDependencies": {
+    "eslint": "^3.10.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/linuxenko/x11-recorder.git"
+  },
+  "author": "Svetlana Linuxenko <linuxenko@yahoo.com> (http://www.linuxenko.pro)",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/linuxenko/x11-recorder/issues"
+  },
+  "homepage": "https://github.com/linuxenko/x11-recorder#readme"
+}
