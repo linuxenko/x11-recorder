@@ -5,7 +5,7 @@ var fs = require('fs');
 var path = require('path');
 var main = require('./lib/index');
 
-var packageJSON = JSON.parse(fs.readFileSync('package.json', 'utf8'));
+var packageJSON = JSON.parse(fs.readFileSync(path.resolve(__dirname, 'package.json'), 'utf8'));
 
 commander
   .version(packageJSON.version)
