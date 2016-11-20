@@ -10,9 +10,9 @@ Would you like record something like this ? `xrec` is exactly for it.
 
 ### Why ?
 
-I'm just tired implement different hacks with different tools.
-I remember the pain calculate positions for makeing options for `byzanz` and its family.
-This tool just made by me for me, but i think it may help someone else, therefore i share it with BSD License.
+1. Proof of concept :P
+2. I'm just tired implement different hacks with different tools.
+3. This tool just made by me for me, but i think it may help someone else, therefore i share it with BSD License.
 
 ### Features
   * Measure region of the screen
