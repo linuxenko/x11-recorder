@@ -49,11 +49,16 @@ I'll share the `--help` output here.
     -q, --quality [number]     compression level for gif (default : 10)
     -m, --measure              measure region and exit
     -o, --output [directory]   current directory by default
+    -p, --pointer              Capture mouse cursor (default: no)
     -f, --fullscreen
     -s, --screenshot
 ```
 
 ### ChangeLog
+
+**1.1.0**
+
+  * Cursor capture support
 
 **1.0.0**
 

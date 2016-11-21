@@ -17,11 +17,12 @@ commander
   .option('-q, --quality [number]', 'compression level for gif (default : 10)', parseInt)
   .option('-m, --measure', 'measure region and exit')
   .option('-o, --output [directory]', 'current directory by default')
+  .option('-p, --pointer', 'Capture mouse cursor (default: no)')
   .option('-f, --fullscreen', '')
   .option('-s, --screenshot', '')
   .parse(process.argv);
 
-commander.output = path.join(commander.output || process.cwd() + '/');
+commander.output = path.join(commander.output || process.cwd()) + '/';
 
 if (commander.delay) {
   commander.delay = commander.delay * 1000;
