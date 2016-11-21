@@ -1,6 +1,6 @@
 {
   "name": "xrec",
-  "version": "0.0.4",
+  "version": "1.0.0",
   "description": "xrec helps you capture any area of your screen either as a screenshot or record a gif file.",
   "main": "index.js",
   "bin" : {

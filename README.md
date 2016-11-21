@@ -4,7 +4,7 @@
 
 [![CURRENTLY RECORDING](https://raw.githubusercontent.com/linuxenko/x11-recorder/master/screenshot.gif)]()
 
-Would you like record something like this ? `xrec` is exactly for it.
+Would you like record something like this ? `xrec` is exactly for it !
 
 ### Why ?
 
@@ -42,13 +42,22 @@ I'll share the `--help` output here.
     -h, --help                 output usage information
     -V, --version              output the version number
     -d, --delay [seconds]      delay before start recording (seconds)
-    -r, --rate [milliseconds]  capture frames rate (default: 1200)
-    -c, --count [number]       total frames to capture (default : 10)
+    -r, --rate [milliseconds]  capture frames rate (default: 700)
+    -c, --count [number]       total frames to capture (default : 15)
+    -q, --quality [number]     compression level for gif (default : 10)
     -m, --measure              measure region and exit
     -o, --output [directory]   current directory by default
     -f, --fullscreen
     -s, --screenshot
 ```
+
+### ChangeLog
+
+**1.0.0**
+
+  * Less numbers for default gif recording settings to make it slightly better
+  * `-q` Option helps change `.gif` compression quality
+  * screenshot.gif remade with new default settings
 
 ### License
 
