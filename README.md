@@ -1,16 +1,18 @@
 ### XREC - Desktop recorder for x11 (xorg).
 
+[![npm version](https://img.shields.io/npm/v/xrec.svg)](https://www.npmjs.com/package/xrec)
+
 `xrec` helps you capture any area of your screen either as a screenshot or record a gif file.
 
-[![CURRENTLY RECORDING](https://raw.githubusercontent.com/linuxenko/x11-recorder/master/screenshot.gif)]()
+[![CURRENTLY RECORDING](https://raw.githubusercontent.com/linuxenko/x11-recorder/master/screenshot.gif)](https://github.com/linuxenko/x11-recorder)
 
 Would you like record something like this ? `xrec` is exactly for it !
 
 ### Why ?
 
-I'm just tired implement different hacks with different tools.
-I remember the pain calculate positions for makeing options for `byzanz` and its family.
-This tool just made by me for me, but i think it may help someone else, therefore i share it with BSD License.
+1. Proof of concept :P
+2. I'm just tired implement different hacks with different tools.
+3. This tool just made by me for me, but i think it may help someone else, therefore i share it with BSD License.
 
 ### Features
   * Measure region of the screen
@@ -35,7 +37,7 @@ How to run it ?
 I'll share the `--help` output here.
 
 ```sh
-  Usage: index [options] <file ...>
+  Usage: xrec [options] <file ...>
 
   Options:
 
