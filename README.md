@@ -56,6 +56,10 @@ I'll share the `--help` output here.
 
 ### ChangeLog
 
+**1.1.1**
+
+  * Fix relative paths
+
 **1.1.0**
 
   * Cursor capture support
