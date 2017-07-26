@@ -1,6 +1,6 @@
 ### XREC - Desktop recorder for x11 (xorg).
 
-[![npm version](https://img.shields.io/npm/v/xrec.svg)](https://www.npmjs.com/package/xrec) [![bsd](https://img.shields.io/npm/l/xrec.svg)](https://github.com/linuxenko/x11-recorder)
+[![Donate](https://img.shields.io/badge/donate-3$-green.svg)](https://www.linuxenko.pro/donate.html#?amount=3) [![npm version](https://img.shields.io/npm/v/xrec.svg)](https://www.npmjs.com/package/xrec) [![bsd](https://img.shields.io/npm/l/xrec.svg)](https://github.com/linuxenko/x11-recorder)
 
 `xrec` helps you capture any area of your screen either as a screenshot or record a gif file.
 
