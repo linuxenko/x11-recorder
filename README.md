@@ -11,14 +11,15 @@ Would you like record something like this ? `xrec` is exactly for it !
 ### Why ?
 
 1. Proof of concept :P
-2. I'm just tired implement different hacks with different tools.
-3. This tool just made by me for me, but i think it may help someone else, therefore i share it with BSD License.
+2. Playing with something new
+3. This tool just made by me for me
+4. If you find it useful - it's great !
 
 ### Features
   * Measure region of the screen
   * Take `.png` screenshot
   * Record `.gif`
-  * Small amount of dependencies.
+  * Almost no dependencies
 
 ### How to
 
@@ -34,7 +35,7 @@ How to run it ?
   xrec
 ```
 
-I'll share the `--help` output here.
+Its `--help` output:
 
 ```sh
   Usage: xrec [options] <file ...>
@@ -55,6 +56,9 @@ I'll share the `--help` output here.
 ```
 
 ### ChangeLog
+
+**1.1.2**
+  * Dependencies update
 
 **1.1.1**
 
