@@ -29,7 +29,7 @@
     "x11": "https://github.com/15lyfromsaturn/node-x11.git"
   },
   "devDependencies": {
-    "eslint": "^3.10.2"
+    "eslint": "^6.6.0"
   },
   "repository": {
     "type": "git",
